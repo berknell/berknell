@@ -1,45 +1,25 @@
 enable: true
 title: Our Services
 subtitle: >
-  Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics
+  When you work with us, you can expect the best with all your financial needs.
 content:
 
-  - icon: ion-coffee
-    name: Branding
+  - icon: ion-person-stalker
+    name: Financial Planning
     text: >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+      Build a financial future tailored to your needs
 
-  - icon: ion-compass
-    name: Web Design
+  - icon: ion-stats-bars
+    name: Investment Management
     text: >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+      We invest smarter by combining modern technology with time-tested wisdom
 
-  - icon: ion-image
-    name: App Design
+  - icon: ion-briefcase
+    name: Equity Compensation Planning
     text: >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+      We're on your side to make sure every detail is taken care of
 
-  - icon: ion-bug
-    name: Start Up
+  - icon: ion-ios-infinite
+    name: And More...
     text: >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-
-  - icon: ion-headphone
-    name: Logo Design
-    text: >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-
-  - icon: ion-leaf
-    name: Development
-    text: >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-
-  - icon: ion-planet
-    name: Brand Identity
-    text: >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-
-  - icon: ion-earth
-    name: Brand Identity
-    text: >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+      Advice with You In Mind means you're in the driver's seat

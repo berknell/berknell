@@ -7,41 +7,43 @@ theme = "airspace-hugo"
 
   [[menu.header]]
     weight = 2
-    name = "Work"
-    url = "/work"
-  [[menu.header]]
-    weight = 3
-    name = "Blog"
-    url = "/blog"
+    name = "About"
+    url = "#intro"
+#   url = "/about"
+# [[menu.header]]
+#   weight = 3
+#   name = "Blog"
+#   url = "/blog"
   [[menu.header]]
     weight = 4
-    name = "Service"
-    url = "#"
+    name = "Services"
+#   url = "/service"
+    url = "#service"
   [[menu.header]]
     weight = 5
     name = "Contact"
     url = "/contact"
 
-  [[menu.footer]]
-    weight = 1
-    name = "About us"
-    url = "#"
-  [[menu.footer]]
-    weight = 2
-    name = "Contact us"
-    url = "#"
-  [[menu.footer]]
-    weight = 3
-    name = "How it works"
-    url = "#"
-  [[menu.footer]]
-    weight = 4
-    name = "Blog"
-    url = "#"
-  [[menu.footer]]
-    weight = 5
-    name = "Terms"
-    url = "#"
+# [[menu.footer]]
+#   weight = 1
+#   name = "About us"
+#   url = "#"
+# [[menu.footer]]
+#   weight = 2
+#   name = "Contact us"
+#   url = "#"
+# [[menu.footer]]
+#   weight = 3
+#   name = "How it works"
+#   url = "#"
+# [[menu.footer]]
+#   weight = 4
+#   name = "Blog"
+#   url = "#"
+# [[menu.footer]]
+#   weight = 5
+#   name = "Terms"
+#   url = "#"
 
 # The site's parameters
 [params]
@@ -62,13 +64,9 @@ theme = "airspace-hugo"
   [params.wrapper]
     enable = true
     title = "About Us"
-    italic = "Simply stated: Berknell is about you. As proud fiduciaries, our independence lends us the autonomy and flexibility to always put you first. We call this Advice With You In Mind&trade;."
+    italic = "Simply stated: Berknell is about you. As proud fiduciaries, our independence lends us the autonomy and flexibility to always put you first. We call this Advice With You In Mind™."
     paragraph = "Here we strive to meet our clients, regardless or age, where they are and successfully get them to their goals through sound planning and disciplined evidence-based investment management. Through a deep relationship with you, we plan on being your partner and counselor every step of the way."
 
-  [params.call]
-    enable = true
-    title = "We design hella experiences."
-    paragraph = "Read more about what we do and our philosophy of design. Judge for yourself The work and results we’ve achieved for other clients, and meet our highly experienced Team who just love to design."
 
   [params.blog]
     enable = true
@@ -80,12 +78,19 @@ theme = "airspace-hugo"
     title = "Advice with You In Mind™"
     content = "We are people. You can expect your advisor to have a personal touch, too . We seek to handle the hard stuff with you so you won't always have to. Instead, spend lives precious moments making memories with the ones that you love."
 
-
+  [params.call]
+    enable = true
+    bgImage = "img/call-to-action-bg.jpg"
+    title = "Schedule an Introductory Call Today."
+    paragraph = "Our engagement starts with you. In this meeting, we’ll discuss your financial concerns and discover how Berknell Financial Group can assist as your trusted financial partner."
+    [params.call.button]
+      url = "/contact"
+      text = "Get Started"
 
   [params.contact]
     enable = true
-    title = "Drop us a note"
-    subtitle = "Don’t just take our word for it. Check out some of our latest work."
+    title = "Get started today"
+    subtitle = "Contact us to schedule a meeting, "
     [params.contact.form]
       name = "Your name"
       email = "Your email"
@@ -93,9 +98,9 @@ theme = "airspace-hugo"
       message = "Your message"
       button = "Send message"
     [params.contact.box]
-      title = "Stop by for a visit"
-      address = "North Main Street, Brooklyn Australia"
-      email = "Email: contact@mail.com"
-      phone = "Phone: +88 01672 506 744"
+      title = "Contact Info"
+      address = "2350 Taylor Street STE 8, San Francisco, CA 94133"
+      email = "Email: info@berknell.com"
+      phone = "Phone: 800-218-1724"
     [params.contact.gmaps]
-      title = "We Also Count in Google Maps"
+      title = "Visit our North Beach Office"
